@@ -12,19 +12,40 @@
 
 /* UTILITIES */
 
+.textyellow {
+    color: #FFFF00;
+}
+
+.textgreen {
+    color: #008000;
+}
+
 /* NAVIGATION */
 
-ul {
+nav ul {
     position: absolute;
     right: 50px;
 }
 
-li {
+nav ul li {
     display: inline-block;
+    margin: 40px 50px 0 50px;
 }
 
-a {
+nav ul li a {
     position: fixed;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+
+nav ul li a:hover {
+    transform: scale(1.2);
 }
 
 /* MAIN */
@@ -32,6 +53,18 @@ a {
 main > * {
     height: 100vh;
     width: 100%;
+}
+
+#page1 {
+    background-color: #F00;
+}
+
+#page2 {
+    background-color: #008000;
+} 
+
+#page3 {
+    background-color: #FFFF00;
 }
 
 .title {
