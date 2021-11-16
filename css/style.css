@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: hidden;
     font-family: 'Rubik Mono One', sans-serif;
 }
 
@@ -13,19 +14,37 @@
 
 /* NAVIGATION */
 
+ul {
+    position: absolute;
+    right: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    position: fixed;
+}
+
 /* MAIN */
 
-main .shoe {
+main > * {
     height: 100vh;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .title {
     display: inline-block;
 }
-.vans {
+
+.shoe {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vans{
     background-image: url(../img/vans.png);
 }
 
@@ -35,12 +54,4 @@ main .shoe {
 
 .converse {
     background-image: url(../img/converse.png);
-}
-
-nav {
-    position: relative;
-}
-
-ul {
-    position: absolute;
 }
