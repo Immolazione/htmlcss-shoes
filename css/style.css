@@ -14,3 +14,33 @@
 /* NAVIGATION */
 
 /* MAIN */
+
+main .shoe {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    display: inline-block;
+}
+.vans {
+    background-image: url(../img/vans.png);
+}
+
+.tommy {
+    background-image: url(../img/tommy.png);
+}
+
+.converse {
+    background-image: url(../img/converse.png);
+}
+
+nav {
+    position: relative;
+}
+
+ul {
+    position: absolute;
+}
