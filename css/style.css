@@ -81,6 +81,7 @@ main > * {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(5px 5px 10px #666);
 }
 
 .shoe h1 {
