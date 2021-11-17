@@ -43,6 +43,7 @@ nav ul li a {
     border-radius: 50%;
     color: #000;
     z-index: 1;
+    box-shadow: 5px 5px 10px #666;
 }
 
 nav ul li a:hover {
@@ -82,6 +83,7 @@ main > * {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(5px 5px 10px #666);
 }
 
 .shoe h1 {
